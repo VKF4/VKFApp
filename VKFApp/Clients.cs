@@ -10,18 +10,17 @@ using System.Windows.Forms;
 
 namespace VKFApp
 {
-    public partial class Form1 : Form
+    public partial class Clients : Form
     {
-        public Form1()
+        public Clients()
         {
             InitializeComponent();
         }
 
-        private void clientsToolStripMenuItem_Click(object sender, EventArgs e)
+        private void btnNouveau_Click(object sender, EventArgs e)
         {
-            Form Clients = new Clients();
-            Clients.MdiParent = this;
-            Clients.Show();
+            Form NewClients = new NewClients();
+            NewClients.Show();
         }
     }
 }
