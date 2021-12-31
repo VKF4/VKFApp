@@ -22,5 +22,16 @@ namespace VKFApp
             Form NewClients = new NewClients();
             NewClients.Show();
         }
+
+        private void dgvClients_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btnExporter_Click(object sender, EventArgs e)
+        {
+            Form TypeExport = new TypeExport();
+            TypeExport.Show();
+        }
     }
 }
