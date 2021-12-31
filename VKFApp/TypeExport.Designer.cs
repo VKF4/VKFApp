@@ -105,7 +105,7 @@
             this.gbTypeExport.Controls.Add(this.rbPDF);
             this.gbTypeExport.Location = new System.Drawing.Point(109, 58);
             this.gbTypeExport.Name = "gbTypeExport";
-            this.gbTypeExport.Size = new System.Drawing.Size(218, 57);
+            this.gbTypeExport.Size = new System.Drawing.Size(207, 57);
             this.gbTypeExport.TabIndex = 2;
             this.gbTypeExport.TabStop = false;
             // 
