@@ -36,7 +36,115 @@ namespace VKFApp
             this.dateOuverture = uneDateOuverture;  
         }
 
+        public int getNumClient()
+        {
+            return this.numClient;
+        }
 
+        public void setNumClient(int unNumClient)
+        {
+            this.numClient = unNumClient;
+        }
+
+        public string getNomClient()
+        {
+            return this.nomClient;
+        }
+
+        public void setNomClient(string unNomClient)
+        {
+            this.nomClient = unNomClient;
+        }
+
+        public string getActivite()
+        {
+            return this.activite;
+        }
+
+        public void setActivite(string uneActivite)
+        {
+            this.activite = uneActivite;  
+        }
+
+        public string getAdresse()
+        {
+            return this.adresse;
+        }
+
+        public void setAdresse(string uneAdresse)
+        {
+            this.adresse = uneAdresse;
+        }
+
+        public string getVille()
+        {
+            return this.ville;
+        }
+
+        public void setVille(string uneVille)
+        {
+            this.ville = uneVille;
+        }
+
+        public int getCodePostal()
+        {
+            return this.codePostal;
+        }
+
+        public void setCodePostal(int unCodePostal)
+        {
+            this.codePostal = unCodePostal;
+        }
+
+        public string getEmail()
+        {
+            return this.email;
+        }
+
+        public void setEmail(string unEmail)
+        {
+            this.email = unEmail;
+        }
+
+        public string getTelPortable()
+        {
+            return this.telPortable;
+        }
+
+        public void setTelPortable(string unTelPortable)
+        {
+            this.telPortable = unTelPortable;
+        }
+
+        public string getTelFixe()
+        {
+            return this.telFixe;
+        }
+
+        public void setTelFixe(string unTelFixe)
+        {
+            this.telFixe = unTelFixe;
+        }
+
+        public string getSIREN()
+        {
+            return this.SIREN;
+        }
+
+        public void setSIREN(string unSIREN)
+        {
+            this.SIREN = unSIREN;
+        }
+
+        public string getDateOuverture()
+        {
+            return this.dateOuverture;
+        }
+
+        public void setDateOuverture(string uneDateOuverture)
+        {
+            this.dateOuverture = uneDateOuverture;
+        }
 
     }
 }

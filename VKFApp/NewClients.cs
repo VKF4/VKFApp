@@ -43,6 +43,8 @@ namespace VKFApp
         {
             var newClient = new ClassClients(0, tbNomClient.Text, tbActivite.Text, tbAdresse.Text, tbVille.Text, Convert.ToInt32(tbCodePostal.Text), tbEmail.Text, tbTelPortable.Text, tbTelFixe.Text, tbSIREN.Text, dtpDateOuverture.Text);
 
+
+
             string reqInsertClient = "INSERT INTO Clients VALUES(";
             
         }
